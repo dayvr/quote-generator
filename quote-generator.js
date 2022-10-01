@@ -21,4 +21,9 @@ const tweetQuote = () => {
   window.open(tweetUrl, "_blank");
 };
 
+// Function call to get quote
+getQuote();
+
+// Event Listeners
 btn.addEventListener("click", getQuote);
+tweet.addEventListener("click", tweetQuote);
