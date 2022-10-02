@@ -59,13 +59,14 @@ body {
   opacity: 0.7;
 }
 
-.fa-twitter {
-  background: #55acee;
-  color: white;
-  border-radius: 5px;
-}
-
 .icon {
   color: black;
   text-decoration: none;
+  font-size: x-large;
+}
+
+/* Make the twitter icon change color when hovered over */
+.icon:hover {
+  color: #55acee;
+  font-size: xx-large;
 }
