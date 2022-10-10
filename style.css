@@ -6,15 +6,16 @@
 }
 
 body {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background: #f6f2f7;
   font-size: 14px;
   line-height: 1.42857143;
-  margin: 0;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 26px;
 }
 
 .wrapper {
